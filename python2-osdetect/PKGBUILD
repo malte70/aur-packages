@@ -1,11 +1,11 @@
 # Maintainer: Malte Bublitz <me@malte-bublitz.de>
 
-pkgname=python2-twoffein
-pkgver=0.20121206
+pkgname=python2-osdetect
+pkgver=???
 pkgrel=1
-pkgdesc="A Python 2 module to access the Twoffein API easily."
+pkgdesc="A Python 2 module to detect the operating system."
 arch=(any)
-url="https://github.com/malte70/python-twoffein"
+url="https://github.com/malte70/OSDetect"
 license=(BSD)
 depends=(python2)
 makedepends=("python2-distribute")
