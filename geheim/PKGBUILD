@@ -1,0 +1,27 @@
+# Maintainer: Malte Bublitz <malte70+aur@mcbx.de>
+
+pkgname=geheim
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="A simple password manager which tries to follow the Unix principles."
+arch=(any)
+url="http://malte-bublitz.de/geheim"
+license=("BSD")
+depends=("gnupg")
+makedepends=("make")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/malte70/$pkgname/archive/$pkgver.tar.gz")
+sha256sums=('38193b33de1b09ff0cf595034148caa27b97e12f5d394558e3004e1be6070014')
+
+check() {
+	cd "${srcdir}/$pkgname-${pkgver}"
+	make test
+}
+
+build() {
+	true
+}
+
+package() {
+	cd "${srcdir}/$pkgname-${pkgver}"
+	make DEST=${pkgdir}/usr install
+}
