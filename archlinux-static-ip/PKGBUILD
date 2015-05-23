@@ -1,4 +1,4 @@
-# Maintainer: Malte Bublitz <me@malte-bublitz.de>
+# Maintainer: Malte Bublitz <malte70+aur@mcbx.de>
 
 pkgname=archlinux-static-ip
 pkgver=0.0.1
@@ -9,8 +9,7 @@ url="https://github.com/malte70/archlinux-static-ip"
 license=("MIT")
 depends=("bash")
 source=("$pkgname-$pkgver.tar.gz::https://github.com/malte70/$pkgname/archive/v$pkgver.tar.gz")
-md5sums=('1473d338ed304d52c2fe4e04f4ceb460')
-sha1sums=('3cc2cc4c59630095ddfecb70f93cd8f07a39f4a5')
+sha256sums=('4c6066b6b1ee20ad06504acd995193253e1d6feebb5a1c50b49cb7060b2741d7')
 
 package() {
 	cd "${srcdir}/$pkgname-${pkgver}"
