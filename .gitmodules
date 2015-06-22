@@ -7,3 +7,6 @@
 [submodule "archlinux-static-ip"]
 	path = archlinux-static-ip
 	url = ssh://aur@aur4.archlinux.org/archlinux-static-ip.git
+[submodule "python2-osdetect"]
+	path = python2-osdetect
+	url = ssh://aur@aur4.archlinux.org/python2-osdetect.git
