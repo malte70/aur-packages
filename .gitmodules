@@ -10,3 +10,6 @@
 [submodule "python2-osdetect"]
 	path = python2-osdetect
 	url = ssh://aur@aur4.archlinux.org/python2-osdetect.git
+[submodule "python2-gnupg"]
+	path = python2-gnupg
+	url = ssh://aur@aur4.archlinux.org/python2-gnupg.git
