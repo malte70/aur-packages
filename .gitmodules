@@ -1,0 +1,3 @@
+[submodule "geheim"]
+	path = geheim
+	url = ssh://aur@aur4.archlinux.org/geheim.git
