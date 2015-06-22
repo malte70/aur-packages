@@ -4,3 +4,6 @@
 [submodule "python-osdetect"]
 	path = python-osdetect
 	url = ssh://aur@aur4.archlinux.org/python-osdetect.git
+[submodule "archlinux-static-ip"]
+	path = archlinux-static-ip
+	url = ssh://aur@aur4.archlinux.org/archlinux-static-ip.git
