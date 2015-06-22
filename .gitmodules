@@ -1,3 +1,6 @@
 [submodule "geheim"]
 	path = geheim
 	url = ssh://aur@aur4.archlinux.org/geheim.git
+[submodule "python-osdetect"]
+	path = python-osdetect
+	url = ssh://aur@aur4.archlinux.org/python-osdetect.git
